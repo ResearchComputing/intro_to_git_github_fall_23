@@ -86,3 +86,54 @@ the end portion "<username>@loginXX"
 provide shell access."
 
 
+<<<<<<< Updated upstream
+=======
+### Setup Git on your Windows Computer
+
+2. Download and run the Git for Windows setup program from https://git-scm.com/download/win
+
+3. Select launch Git Bash
+
+4. Add your git user name
+    ```
+    git config --global user.name "[github user name]"
+    ```
+	
+4. Add your git user email
+    ```
+    git config --global user.email "[github account email]"
+    ```
+
+5. Check that everything was set (should display user.name and user.email)
+    ```
+   git config --global user.name
+   git config --global user.email
+    ```
+
+6. Install GitHub CLI (Command Line Interface)
+    ```
+	winget install --id GitHub.cli 
+    ```
+	Select Y
+
+7. Open Windows Command Prompt
+    ```
+	gh auth login
+	```
+8. Select "GitHub.com"
+
+9. Select "HTTPS"
+
+10. When prompted with "Authenticate with your GitHub credentials" type Y and Enter
+
+11. Select "Login with web browser"
+
+12. Copy your one time code
+
+13. Press Enter to open GitHub in a browser
+
+14. Login to your GitHub account
+
+15. Enter the one time code
+
+>>>>>>> Stashed changes
