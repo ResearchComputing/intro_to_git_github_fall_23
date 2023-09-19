@@ -85,8 +85,6 @@ the end portion "<username>@loginXX"
     - You should see the message: "Hi \<username\>! You've successfully authenticated, but GitHub does not 
 provide shell access."
 
-
-<<<<<<< Updated upstream
 =======
 ### Setup Git on your Windows Computer
 
@@ -135,5 +133,3 @@ provide shell access."
 14. Login to your GitHub account
 
 15. Enter the one time code
-
->>>>>>> Stashed changes
