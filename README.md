@@ -85,8 +85,7 @@ the end portion "<username>@loginXX"
     - You should see the message: "Hi \<username\>! You've successfully authenticated, but GitHub does not 
 provide shell access."
 
-=======
-### Setup Git on your Windows Computer
+## Setup Git on your Windows Computer
 
 2. Download and run the Git for Windows setup program from https://git-scm.com/download/win
 
