@@ -72,9 +72,9 @@ the end portion "<username>@loginXX"
 9.  Add the following to `~/.ssh/config`:
     ```
     Host github.com
-        Hostname github.com
-        IdentityFile ~/.ssh/id_ed25519
-        IdentitiesOnly yes
+    Hostname github.com
+    IdentityFile ~/.ssh/id_ed25519
+    IdentitiesOnly yes
     ```
 
 10. Verify that your ssh key has been correctly set up:
